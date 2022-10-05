@@ -1,35 +1,27 @@
 {
-	"name": "theme-dracula",
-	"version": "2.24.2",
-	"displayName": "Dracula Official",
-	"homepage": "https://draculatheme.com/",
-	"description": "Official Dracula Theme. A dark theme for many editors, shells, and more.",
-	"publisher": "dracula-theme",
+	"name": "vscode-theme-builder",
+	"version": "0.0.1",
+	"displayName": "Oogway Official",
+	"homepage": "https://xavianaxw.com/",
+	"description": "VSCode (dark) theme builder inspired by Official Dracula Theme.",
+	"publisher": "xavianaxw",
 	"license": "MIT",
 	"scripts": {
 		"build": "node ./scripts/build.js",
 		"lint": "node ./scripts/lint.js",
-		"package": "vsce package -o ./bin/dracula.vsix",
+		"package": "vsce package -o ./bin/oogway.vsix",
 		"vscode:prepublish": "npm run build",
 		"vsce-publish": "vsce publish"
 	},
 	"maintainers": [
-		"Derek P Sifford <dereksifford@gmail.com>"
-	],
-	"contributors": [
-		"Krzysztof Wisznarewski",
-		"Daniel Ramos",
-		"Eric Jackson",
-		"Elliott Pogue",
-		"Ajit Singh",
-		"Teddy Bradford"
+		"Xavian Ang <xavianaxw@gmail.com>"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dracula/visual-studio-code.git"
+		"url": "https://github.com/xavianaxw/vscode-theme-builder.git"
 	},
 	"bugs": {
-		"url": "https://github.com/dracula/visual-studio-code/issues"
+		"url": "https://github.com/xavianaxw/vscode-theme-builder/issues"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
@@ -38,10 +30,10 @@
 		"Themes"
 	],
 	"keywords": [
-		"dracula",
 		"dark",
 		"theme",
-		"color-theme"
+		"color-theme",
+		"theme-builder"
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
@@ -51,14 +43,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dracula",
+				"label": "Oogway",
 				"uiTheme": "vs-dark",
-				"path": "./theme/dracula.json"
+				"path": "./theme/oogway.json"
 			},
 			{
-				"label": "Dracula Soft",
+				"label": "Oogway Soft",
 				"uiTheme": "vs-dark",
-				"path": "./theme/dracula-soft.json"
+				"path": "./theme/oogway-soft.json"
 			}
 		]
 	},
@@ -67,10 +59,5 @@
 		"prettier": "^2.6.0",
 		"tinycolor2": "^1.4.2",
 		"vsce": "^2.7.0"
-	},
-	"__metadata": {
-		"id": "4e44877c-1c8d-4f9c-ba86-1372d0fbeeb1",
-		"publisherDisplayName": "Dracula Theme",
-		"publisherId": "fbb3d024-f8f2-460c-bdb5-99552f6d8c4b"
 	}
 }
