@@ -9,4 +9,4 @@
 
 #### Activating theme
 
-Run Visual Studio Code. The Oogway Syntax Theme will be available from `File -> Preferences -> Color Theme` dropdown menu.
+Run Visual Studio Code. The "Oogway Official" Syntax Theme will be available from `File -> Preferences -> Color Theme` dropdown menu.
