@@ -1,11 +1,9 @@
 $schema: vscode://schemas/color-theme
-name: Dracula
-author: Zeno Rocha
-maintainers:
-  - Derek P Sifford <dereksifford@gmail.com>
-semanticClass: theme.dracula
+name: Oogway
+author: Xavian Ang
+semanticClass: theme.oogway
 semanticHighlighting: true
-dracula:
+oogway:
   base:
     - &BG        '#282A36'
     - &FG        '#F8F8F2'
