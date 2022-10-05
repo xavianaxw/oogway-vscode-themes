@@ -1,4 +1,4 @@
-# VSCode Theme Builder
+# Oogway Official VSCode Themes
 
 A dark 🐢 theme inspired by [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code)
 
