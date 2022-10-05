@@ -1,5 +1,5 @@
 {
-	"name": "vscode-theme-builder",
+	"name": "oogway-vscode-themes",
 	"version": "1.0.0",
 	"displayName": "Oogway Official",
 	"homepage": "https://xavianaxw.com/",
@@ -18,10 +18,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/xavianaxw/vscode-theme-builder.git"
+		"url": "https://github.com/xavianaxw/oogway-vscode-themes.git"
 	},
 	"bugs": {
-		"url": "https://github.com/xavianaxw/vscode-theme-builder/issues"
+		"url": "https://github.com/xavianaxw/oogway-vscode-themes/issues"
 	},
 	"engines": {
 		"vscode": "^1.13.0"
