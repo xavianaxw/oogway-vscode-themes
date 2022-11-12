@@ -357,6 +357,8 @@ colors:
   # Welcome Page
   welcomePage.buttonBackground:                                                 # Background color for the buttons on the Welcome page
   welcomePage.buttonHoverBackground:                                            # Hover background color for the buttons on the Welcome page
+  welcomePage.progress.foreground: *PINK
+  welcomePage.progress.background:
   walkThrough.embeddedEditorBackground: *BGDark                                 # Background color for the embedded editors on the Interactive Playground
 
   # Setting Editor
@@ -388,6 +390,10 @@ colors:
   listFilterWidget.background: *BGLight                                         # Background color of the type filter widget in lists and trees.
   listFilterWidget.outline: *BGLighter                                          # Outline color of the type filter widget in lists and trees.
   listFilterWidget.noMatchesOutline: *RED                                       # Outline color of the type filter widget in lists and trees, when there are no matches.
+
+  # Text Colors
+  textLink.foreground: *PINK                                                    # Color of links (like the ones on welcome/get started page)
+  textLink.activeForeground: *YELLOW                                            # Hover/active state of links
 
 # Syntaxes
 tokenColors:
