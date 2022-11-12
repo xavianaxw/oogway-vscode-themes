@@ -18,6 +18,8 @@ Hit `F5` on your keyboard to begin debugging on VSCode.
 
 Once you are ready, feel free to create a PR.
 
+Reference: https://vscode-docs1.readthedocs.io/en/latest/getstarted/theme-color-reference/
+
 ## License
 
 [MIT License](./LICENSE)
