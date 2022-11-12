@@ -59,5 +59,11 @@
 		"prettier": "^2.6.0",
 		"tinycolor2": "^1.4.2",
 		"vsce": "^2.7.0"
+	},
+	"__metadata": {
+		"id": "4b20b713-fc18-4350-9a7a-e8574f1412a7",
+		"publisherDisplayName": "xavianaxw",
+		"publisherId": "d0577d18-66ce-41a5-9f43-882710f9bbaf",
+		"isPreReleaseVersion": false
 	}
 }
