@@ -80,13 +80,13 @@ colors:
   focusBorder: *COMMENT                                                         # Overall border color for focused elements. This color is only used if not overridden by a component
   foreground: *FG                                                               # Overall foreground color. This color is only used if not overridden by a component
   widget.shadow:                                                                # Shadow color of widgets such as Find/Replace inside the editor
-  selection.background: *PURPLE                                                 # Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal)
+  selection.background: *SELECTION                                                 # Background color of text selections in the workbench (for input fields or text areas, does not apply to selections within the editor and the terminal)
   errorForeground: *RED                                                         # Overall foreground color for error messages (this color is only used if not overridden by a component)
 
   # Button Control
-  button.background: *SELECTION                                                 # Button background color
+  button.background: *PINK                                                      # Button background color
   button.foreground: *FG                                                        # Button foreground color
-  button.border:                                                                # Button border color
+  button.border: *YELLOW                                                        # Button border color
   button.hoverBackground:                                                       # Button background color when hovering
   button.secondaryBackground: *BG                                               # Secondary button background color.
   button.secondaryForeground: *FG                                               # Secondary button foreground color.
